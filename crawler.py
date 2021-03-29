@@ -70,6 +70,6 @@ for table in pasttables:
 # Converting Pandas DataFrame
 # DataFrame  
 newDataFrame = pd.DataFrame(data = tableMatrix, columns = list_header)
-print(newDataFrame)
+# print(newDataFrame)
 # into CSV file 
 newDataFrame.to_csv('~/Desktop/'+d+'.csv', encoding='utf_8_sig')
